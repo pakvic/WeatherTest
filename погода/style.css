@@ -1,0 +1,91 @@
+.day {
+	 border-radius:4px;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 text-align:center;
+	 padding:20px;
+	 margin-bottom: 20px;
+	 width:auto;
+ }
+  .day, #demo {
+     background-image: linear-gradient(141deg, #9fb8ad 0%, #6600FF 45%, #6600CC 75%);
+} 
+#tablo {
+    display: none;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+ }
+#day1, #day2, #day3, #day4, #today {
+	font-size:1.8em;
+	color:#e8ffe8;
+	text-shadow: 0 0 5px #070707;
+ } 
+#demo7,  #demo10, #demo14, #demo18, #demo3 {
+    font-size:.8em;
+	color:#FF66FF;
+ }
+#demo5, #demo11, #demo15, #demo19, #demo2 {
+    font-size:1.3em;
+	color:#0768f0;
+ }
+#demo4, #demo9, #demo13, #demo17, #demo {
+    font-size:1.3em;
+	color:#ff00bb;
+ }
+ input{
+  font-size:16px;
+  font-weight:bold;
+  font-style:italic;
+  border: solid 2px #68bcff;
+  outline: 0;
+  width: 30%;
+  height: 36px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-left: 40px;
+  margin: 10px 0px;
+  z-index: 9999999;
+}
+#cityB {
+  height: 40px;
+  width: 40px;
+  border: solid 2px #68bcff;
+  border-left: none;
+  outline: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-right: 5px;
+  margin-left:-6px;
+  background: #68bcff;
+  color: #fff;
+}
+.text-center {
+  background: radial-gradient(circle at 65% 15%, #6699FF, #660066);
+  font-family:Open Sans;
+  font-size:32px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+  text-align:center;
+ }
+#cityC {
+ color:#8df2a1;
+ font-size:26px;
+ padding:10px;
+}
+
+@media all and (max-width: 900px){
+	input{
+  font-size:12px;
+  font-weight:normal;
+  font-style:italic;
+  border: solid 1px #68bcff;
+  outline: 0;
+  width: 70%;
+  height: 30px;
+}
+button{
+  height: 30px;
+  width: 30px;
+  border: solid 1px #68bcff;
+}
+}
